@@ -28,6 +28,9 @@ service:
     influxdb:
       enabled: false
       port: 9009
+    healthcheck:
+      enabled: false
+      port: 9003
 
 persistence:
   enabled: true
